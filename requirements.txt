@@ -1,5 +1,5 @@
 streamlit
-json
+simplejson
 time
 torch
 opencv
