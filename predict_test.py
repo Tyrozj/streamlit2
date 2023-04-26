@@ -89,7 +89,8 @@ def main():
                              line_thickness=3,
                              font='arial.ttf',
                              font_size=20)
-       streamlit.image(plot_img)
+        
+        streamlit.image(plot_img)
 
 
 if __name__ == "__main__":
