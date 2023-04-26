@@ -1,7 +1,7 @@
 import os
 import json
 import time
-import streamlit as st
+
 import torch
 import cv2
 import numpy as np
@@ -89,7 +89,7 @@ def main():
                              line_thickness=3,
                              font='arial.ttf',
                              font_size=20)
-       st.image(plot_img)
+       streamlit.image(plot_img)
 
 
 if __name__ == "__main__":
