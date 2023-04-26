@@ -3,5 +3,5 @@ simplejson
 torch
 opencv-python
 numpy
-pillowl
+pillow
 matplotlib
