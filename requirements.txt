@@ -1,6 +1,5 @@
 streamlit
 simplejson
-time
 torch
 opencv
 numpy
