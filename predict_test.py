@@ -1,7 +1,7 @@
 import os
 import json
 import time
-
+import streamlit as st
 import torch
 import cv2
 import numpy as np
@@ -89,10 +89,7 @@ def main():
                              line_thickness=3,
                              font='arial.ttf',
                              font_size=20)
-        plt.imshow(plot_img)
-        plt.show()
-        # 保存预测的图片结果
-        plot_img.save("test_result.jpg")
+       st.image(plot_img)
 
 
 if __name__ == "__main__":
