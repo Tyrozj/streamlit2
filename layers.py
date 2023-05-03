@@ -1,5 +1,6 @@
 import torch.nn.functional as F
 import utils 
+from torch import nn
 
 
 def make_divisible(v, divisor):
