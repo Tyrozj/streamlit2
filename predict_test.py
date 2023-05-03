@@ -14,6 +14,7 @@ import torch_utils
 import utils
 from models import Darknet
 from draw_box_utils import draw_objs
+import parse_config
 
 
 def main():
