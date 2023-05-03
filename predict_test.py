@@ -80,7 +80,7 @@ def main():
 
         bboxes = pred[:, :4].detach().cpu().numpy()
         scores = pred[:, 4].detach().cpu().numpy()
-        classes = pred[:, 5].detach().cpu().numpy().astype(np.int) + 1
+        classes = pred[:, 5].detach().cpu().numpy().astype(np.int64) + 1
 
         pil_img = Image.fromarray(img_o[:, :, ::-1])
         plot_img = draw_objs(pil_img,
