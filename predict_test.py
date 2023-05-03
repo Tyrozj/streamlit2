@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 from PIL import Image
-
+from torch import nn
 
 import img_utils
 import torch_utils
