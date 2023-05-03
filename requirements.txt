@@ -1,7 +1,7 @@
 streamlit
 simplejson
 torch
-opencv-python=="3.4.9.31"
+opencv-python=="3.4.9"
 numpy
 pillow
 matplotlib
