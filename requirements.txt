@@ -1,7 +1,7 @@
 streamlit
 simplejson
 torch
-opencv-python
+opencv-python-headless
 numpy
 pillow
 matplotlib
