@@ -15,7 +15,7 @@ import utils
 from models import Darknet
 from draw_box_utils import draw_objs
 import parse_config
-
+import streamlit
 
 def main():
     img_size = 512  # 必须是32的整数倍 [416, 512, 608]
