@@ -1,6 +1,7 @@
 import layers
 import parse_config 
-
+import torch
+from torch import nn
 ONNX_EXPORT = False
 
 
