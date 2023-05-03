@@ -16,9 +16,9 @@ from draw_box_utils import draw_objs
 
 def main():
     img_size = 512  # 必须是32的整数倍 [416, 512, 608]
-    cfg = "cfg/my_yolov3.cfg"  # 改成生成的.cfg文件
-    weights_path = "weights/yolov3spp-voc-512.pt"  # 改成自己训练好的权重文件
-    json_path = "./data/pascal_voc_classes.json"  # json标签文件
+    cfg = "my_yolov3.cfg"  # 改成生成的.cfg文件
+    weights_path = "yolov3spp-voc-512.pt"  # 改成自己训练好的权重文件
+    json_path = "pascal_voc_classes.json"  # json标签文件
     img_path = "test.jpg"
     assert os.path.exists(cfg), "cfg file {} dose not exist.".format(cfg)
     assert os.path.exists(weights_path), "weights file {} dose not exist.".format(weights_path)
