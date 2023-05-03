@@ -1,5 +1,5 @@
-from build_utils.layers import *
-from build_utils.parse_config import *
+import layers
+import parse_config 
 
 ONNX_EXPORT = False
 
