@@ -9,7 +9,9 @@ from matplotlib import pyplot as plt
 from PIL import Image
 
 
-from build_utils import img_utils, torch_utils, utils
+import img_utils
+import torch_utils
+import utils
 from models import Darknet
 from draw_box_utils import draw_objs
 
